@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faq Accordion Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./dist/output.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main
+        class="container px-5 flex justify-center items-center h-screen w-100 bg-gradient-to-t from-[#7D65E9] via-[#B169EA] to-[#B169EA] font-kumbu">
+
+    <div class="bg-white w-96 px-5 pb-5 pt-4 rounded-lg">
+
+      <div class="relative h-14">
+        <img aria-hidden="true" class="absolute -top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48"
+             src="./images/illustration-woman-online-mobile.svg" alt="women online">
+        <img aria-hidden="true" class="absolute -top-1/4 left-1/2 -translate-x-1/2  w-48"
+             src="./images/bg-pattern-mobile.svg" alt="pattern">
+      </div>
+
+
+
+      <section class="h-full w-full flex flex-col items-center justify-center">
+        <h2 class="pt-5 pb-3 mt-0 text-3xl font-bold">FAQ</h2>
+
+
+        <div class="text-sm min-w-full text-slate-500 border-b border-slate-300">
+          
+          <button class="accordion min-w-full py-5">
+
+            <div class="flex justify-between items-center">
+              <span>How many team members can I invite?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+          </button>
+
+          <div class="panel max-h-0 overflow-hidden transition-all duration-300">
+            <p class="text-sm mt-3 mb-3">You can invite up to 2
+              additional users on the Free plan. There is no limit on
+              team members for the Premium plan.</p>
+          </div>
+        </div>
+
+        <div class="text-sm min-w-full text-slate-500 mt-3 border-b border-slate-300">
+          
+          <button class="accordion min-w-full py-5">
+            <div class="flex justify-between items-center">
+              <span> How do I reset my password?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </button>
+
+          <div class="panel max-h-0 overflow-hidden transition-all duration-300 ">
+            <p class="text-sm mt-3 mb-3">Click “Forgot password” from the login page or “Change password” from your profile
+              page.
+              A reset link will be emailed to you.</p>
+          </div>
+        </div>
+
+        <div class="text-sm min-w-full text-slate-500 mt-3 border-b border-slate-300">
+          <button class="accordion min-w-full py-5">
+            <div class="flex justify-between items-center">
+              <span> Can I cancel my subscription?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+          </button>
+
+          <div class="panel max-h-0 overflow-hidden transition-all duration-300 ">
+            <p class="text-sm mt-3 mb-3">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </div>
+
+        <div class="text-sm min-w-full text-slate-500 mt-3 border-b border-slate-300 mb-4">
+         
+          <button class="accordion min-w-full py-5">
+            <div class="flex justify-between items-center">
+              <span>Do you provide additional support?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+          </button>
+
+          <div class="panel max-h-0 overflow-hidden transition-all duration-300 ">
+            <p class="text-sm mt-3 mb-3">Chat and email support is available 24/7. Phone lines are open during normal
+              business hours.</p>
+          </div>
+        </div>
+
+
+
+
+      </section>
+
+    </div>
+
+  </main>
+
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
